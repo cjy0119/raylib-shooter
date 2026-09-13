@@ -1,0 +1,39 @@
+# ===== Visual Studio 编译产物 =====
+# 可执行文件 / 中间文件 / 调试数据库
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.exp
+*.lib
+*.tlog
+*.log
+
+# 整个编译输出目录（你的 x64\Debug 就在这里面）
+x64/
+Debug/
+Release/
+[Bb]in/
+[Oo]bj/
+
+# ===== VS 的用户私有设置 =====
+# 记录的是你自己电脑上的路径和调试配置，换台电脑就是垃圾信息，不传
+*.vcxproj.user
+*.suo
+.vs/
+
+# ===== 其他 =====
+*.sln.docstates
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.VC.db
+ipch/
+
+# 自己留的 GBK 原始备份，不往仓库里放
+*.gbk.bak
+
+# 手工备份文件一律不上传
+*.bak
